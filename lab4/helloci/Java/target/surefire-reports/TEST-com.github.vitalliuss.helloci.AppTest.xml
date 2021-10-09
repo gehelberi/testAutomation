@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.082" tests="5" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\testAutomation\Java\Java\target\test-classes;D:\testAutomation\Java\Java\target\classes;C:\Users\jgehe\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jgehe\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="user.country.format" value="BY"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\jgehe\AppData\Local\Temp\surefire14265454908917998828\surefirebooter8494562224546122196.jar C:\Users\jgehe\AppData\Local\Temp\surefire14265454908917998828 2021-10-10T01-22-29_532-jvmRun1 surefire7962199588058755019tmp surefire_01954169703759895274tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\testAutomation\Java\Java\target\test-classes;D:\testAutomation\Java\Java\target\classes;C:\Users\jgehe\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jgehe\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jgehe"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\testAutomation\Java\Java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\jgehe\AppData\Local\Temp\surefire14265454908917998828\surefirebooter8494562224546122196.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="jgehe"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jgehe\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jgehe\AppData\Local\Temp\"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="user.dir" value="D:\testAutomation\Java\Java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\php;C:\Programming\IT\nodejs\;D:\Programs\Git\cmd;D:\testAutomation\apache-maven-3.8.3\bin;C:\Users\jgehe\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\jgehe\AppData\Local\Programs\Python\Python39\;C:\Users\jgehe\AppData\Local\Microsoft\WindowsApps;D:\Programs\WebStorm\WebStorm 2020.2.3\bin;C:\Users\jgehe\.dotnet\tools;C:\Users\jgehe\AppData\Local\atom\bin;C:\Users\jgehe\AppData\Roaming\npm;C:\Users\jgehe\AppData\Local\Microsoft\WindowsApps;D:\Programs\Microsoft VS Code\bin;C:\Users\jgehe\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.012">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
+</failure>
+  </testcase>
+  <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="testShouldBeSKipped" classname="com.github.vitalliuss.helloci.AppTest" time="0">
+    <skipped message="Not implemented yet"/>
+  </testcase>
+</testsuite>
