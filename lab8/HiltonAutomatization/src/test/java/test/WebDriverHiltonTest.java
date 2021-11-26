@@ -2,6 +2,7 @@ package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,8 +14,12 @@ public class WebDriverHiltonTest {
     private WebDriver driver;
 
     @BeforeMethod(alwaysRun = true)
-    public void browserSetUp(){
-        driver = new ChromeDriver();
+    public void setupBrowser(){
+         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--no-sandbox");
+        driver = new ChromeDriver(chromeOptions);
     }
 
     @Test
@@ -32,7 +37,7 @@ public class WebDriverHiltonTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void browserTearDown(){
+    public void tearDownBrowser(){
         driver.quit();
     }
 }
