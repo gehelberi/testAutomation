@@ -14,6 +14,7 @@ public class WebDriverHiltonTest {
 
     @BeforeMethod(alwaysRun = true)
     public void browserSetUp(){
+        ChromeDriverManager.getInstance().setup();
         driver = new ChromeDriver();
     }
 
