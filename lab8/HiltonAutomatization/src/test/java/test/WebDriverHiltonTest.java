@@ -20,6 +20,7 @@ public class WebDriverHiltonTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
+        driver.manage().window().setSize(new Dimension(1000, 1000));
     }
 
     @Test
