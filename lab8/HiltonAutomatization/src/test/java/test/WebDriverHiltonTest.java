@@ -1,6 +1,5 @@
 package test;
 
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +17,8 @@ public class WebDriverHiltonTest {
     public void browserSetup(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
+        options.addArguments("--user-agent='Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'");
+        options.addArguments("--disable-gpu");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--start-maximized");
         driver = new ChromeDriver(options);
