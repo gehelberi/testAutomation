@@ -1,6 +1,8 @@
 package test;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -13,8 +15,12 @@ public class WebDriverHiltonTest {
     private WebDriver driver;
 
     @BeforeMethod(alwaysRun = true)
-    public void setupBrowser(){
-        driver = new ChromeDriver();
+    public void browserSetup(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--start-maximized");
+        driver = new ChromeDriver(options);
     }
 
     @Test
@@ -32,7 +38,8 @@ public class WebDriverHiltonTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void tearDownBrowser(){
+    public void browserTearDown(){
         driver.quit();
+        driver = null;
     }
 }
