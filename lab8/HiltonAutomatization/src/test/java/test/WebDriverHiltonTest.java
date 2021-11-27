@@ -1,7 +1,6 @@
 package test;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -15,8 +14,7 @@ public class WebDriverHiltonTest {
 
     @BeforeMethod(alwaysRun = true)
     public void browserSetup(){
-        ChromeOptions options = new ChromeOptions();
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
     }
 
     @Test
