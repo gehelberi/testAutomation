@@ -34,6 +34,5 @@ public class WebDriverHiltonTest {
     @AfterMethod(alwaysRun = true)
     public void browserTearDown(){
         driver.quit();
-        driver = null;
     }
 }
