@@ -24,7 +24,7 @@ public class DriverSingleton {
                 default: {
                     WebDriverManager.chromedriver().version("96.0.4664.45").setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
-                    chromeOptions.addArguments("--headless","--no-sandbox", "--disable-dev-shm-usage", "--window-size=1920,1080",
+                    chromeOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--window-size=1920,1080",
                             "--disable-extensions", "--proxy-server='direct://'", "--proxy-bypass-list=*", "--start-maximized",
                             "--disable-gpu", "--ignore-certificate-errors");
                     driver = new ChromeDriver(chromeOptions);
