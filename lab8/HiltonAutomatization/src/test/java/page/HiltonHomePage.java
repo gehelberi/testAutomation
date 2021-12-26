@@ -42,8 +42,8 @@ public class HiltonHomePage extends AbstractPage{
 
 
 
-    public HiltonHomePage pressAddRoomButton(int pressAmount){
-        for (int i = 0; i < pressAmount; i++){
+    public HiltonHomePage pressAddRoomButtonLotsTimes(){
+        while (addRoomButton.isEnabled()){
             addRoomButton.click();
         }
         return this;
